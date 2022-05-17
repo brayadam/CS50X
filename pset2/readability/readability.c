@@ -15,7 +15,7 @@ int main(void)
     // Get text input from user
     string text = get_string("Text: ");
 
-    // Stores the count of letters, words and sentences into a individual variables
+    // Stores the count of letters, words and sentences into individual variables
     int x = count_letters(text);
     int y = count_words(text);
     int z = count_sentences(text);
@@ -38,7 +38,7 @@ int main(void)
         printf("Grade 16+\n");
     }
 
-    // If grade is between 1 - 6, print grade
+    // If grade is between 1 - 16, print grade
     else
     {
         printf("Grade %i\n", result);
